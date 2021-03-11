@@ -20216,7 +20216,7 @@ var render = function() {
     [
       _vm._l(_vm.searchPokemon, function(pokemon) {
         return [
-          _c("div", { key: pokemon.id, staticClass: "col-4" }, [
+          _c("div", { key: pokemon.id, staticClass: "col-sm" }, [
             _c(
               "div",
               {
@@ -32877,7 +32877,7 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! D:\laragon\www\pokedex\resources\js\app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! D:\Devs\htdocs\Projects\pokedexPHP\resources\js\app.js */"./resources/js/app.js");
 
 
 /***/ })

@@ -1,7 +1,7 @@
 <template>
   <div class="row">
     <template v-for="pokemon in searchPokemon">
-      <div class="col-4" :key="pokemon.id">
+      <div class="col-sm" :key="pokemon.id">
         <div class="card border-danger" style="width: 18rem;" >
           <img class="card-img-top img-thumbnail" :src="pokemon.image" :alt="pokemon.name" />
           <div class="card-body">
